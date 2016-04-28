@@ -1,17 +1,15 @@
-<footer class="site-footer">
-  <div class="wrapper">
-    <p>All rights reserved. &#169; {{ 'now' | date: "%Y" }} Phi Kappa Sigma - Delta Phi Chapter</p>
-  </div>
+<div id="footer">
+		<p>All rights reserved. &#169; {{ 'now' | date: "%Y" }} Phi Kappa Sigma - Delta Phi Chapter</p>
+</div>
 
-  <!-- Google Analytics script-->
-    {% if jekyll.environment == "production" %}
-      {% include google_analytics.html %}
-    {% endif %}
+<!-- Google Analytics script-->
+  {% if jekyll.environment == "production" %}
+    {% include google_analytics.html %}
+  {% endif %}
 
-  <!-- Script to Activate the Carousel -->
-	<script>
-	    $('.carousel').carousel({
-	        interval: 20000 //changes the speed
-	    })
-	</script>
-</footer>
+<!-- Script to Activate the Carousel -->
+<script>
+    $('.carousel').carousel({
+        interval: 20000 //changes the speed
+    })
+</script>
