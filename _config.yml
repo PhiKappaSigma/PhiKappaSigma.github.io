@@ -13,7 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
   intellectual stimulation, lifelong friendships, and a network of passionate
   individuals who share common values.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://www.skullhouse.nyc" # the base hostname & protocol for your site
+enforce_ssl: www.skullhouse.nyc
 twitter_username: jekyllrb
 github_username:  PhiKappaSigma
 
