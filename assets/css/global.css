@@ -8,9 +8,9 @@
 	    right: 0;
 		left: 0;
     	bottom: 0;
-    	margin: auto;   
+    	margin: auto;
 	}
-	
+
 	#nav {
 		height: 80px;
 		background: rgba(100,100,100,0.4);
@@ -35,7 +35,7 @@
 	#nav a:link, #nav a:visited {
 		color: rgb(255,255,255); /* unvisited & visited link colour */
 	}
-	
+
 	#nav a:hover {
 	    color: #8D734A; /* hover link colour */
 	}
@@ -164,7 +164,7 @@
 /* Social Icons */
 	.social-icons {
 		margin: 0;
-		padding: 0; 
+		padding: 0;
 	}
 
 	.social-icons li {
@@ -204,7 +204,7 @@
 		background: url(/assets/img/social/facebook.png) no-repeat;
 		border:1px solid #000;
 	}
-	
+
 	.social_github {
 		background: url(/assets/img/social/github.png) no-repeat;
 		border:1px solid #000;
@@ -249,4 +249,13 @@
 /* Text link styling */
 .text a:visited, .text a:link {
     color: #8D734A;
+}
+
+h1, h3 {
+	color: #8D734A;
+}
+
+.letter p{
+	text-align: left;
+	margin-left: 1em;
 }
