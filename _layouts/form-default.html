@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
-  {% include head-home.html %}
+  {% include head-forms.html %}
   <body>
-    <!-- Fade in page loader-->
-    <div id="mask">
-	     <div id="loader"></div>
-    </div>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-	      $(window).load(function() {
-          $("#mask").delay(300).fadeOut(1500);
-        });
-      });
+    <script>
+      webshims.setOptions('waitReady', false);
+      webshims.setOptions('forms-ext', {types: 'date'});
+      webshims.polyfill('forms forms-ext');
     </script>
 
     <!-- Page specific text -->

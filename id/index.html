@@ -1,0 +1,92 @@
+---
+layout: form-default
+---
+
+<div class="home">
+  <h1>Identification Card</h1>
+  <p>The following information is for an official PKS ID Card.</p>
+
+  <p>
+    Note: Your ID card will take at least 1 week to arrive after the group's
+    information is sent (due to cheaper prices when sending in bulk). For updates
+    on the cards arrival date, please contact your <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:bzrtn+VQPneqf@fxhyyubhfr.alp?fhowrpg=Vqragvsvpngvba Pneqf\" gnetrg=\"_oynax\">bzrtn</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
+<noscript><span style="unicode-bidi:bidi-override;direction:rtl;">cyn.esuohlluks@sdraCDI+agemo</span></noscript></span>.
+  </p>
+  <hr>
+
+  <h3>Pricing</h3>
+  <p>
+    The price for the ID cards will be around <span>$100</span> for a
+    primary card and a duplicate. Please pay to the Tau via venmo with the
+    subject line:<br>
+    <span>PKS ID Card</span>.
+  </p>
+  <hr>
+
+  <h3>Picture</h3>
+  <p>
+    The picture uploaded should be a governmental picture taken from the front
+    on either a pure white or pure light blue background. Lighting must be in
+    effect to remove all shadows, and your expression should be neutral.
+  </p>
+
+
+  <!-- Start of the ID contact form -->
+  <form id="contact-form" method="POST">
+  <hr>
+  <h3>PKS Member Information</h3>
+  <input type="text" class="form-control" name="first_name" placeholder="First Name">
+  <input type="text" class="form-control" name="last_name" placeholder="Last Name">
+  <input type="email" class="form-control" name="_replyto" placeholder="Email (for confirmation &amp; update purposes)">
+
+  <input type="text" class="form-control" name="height" placeholder="Height in feet/inches (e.g. 5&quot;10)">
+  <input type="text" class="form-control" name="weight" placeholder="Weight in pounds (e.g. 150)">
+  <input type="textarea" class="form-control" name="address" placeholder="Address (e.g. 809 Lincoln Blvd, Champaign 61820, IL).">
+
+  <select name="eye colour" class="drop">
+    <option value="">Eye Colour</option>
+    <option value="BLK">Black</option>
+    <option value="GRN">Green</option>
+    <option value="BLU">Blue</option>
+    <option value="HAZ">Hazel</option>
+    <option value="BRO">Brown</option>
+    <option value="PNK">Pink</option>
+    <option value="GRY">Gray</option>
+    <option value="UNK">Unknown</option>
+    <option value="DIC">Dichromatic (two different colours)</option>
+  </select>
+
+  <h5>Date of Birth</h5>
+  <input type="date" class="form-control" name="date_of_birth">
+
+  <h5>ID Picture</h5>
+  <input type="file" name="picture" accept="image/*" onchange="displayUploaded(this);">
+  <img id="displayPicture" src="#" alt="" />
+
+  <input type="hidden" name="_next" value="https://www.skullhouse.nyc/" />
+  <input type="hidden" name="_subject" value="PKS ID Card" />
+  <input type="text" name="_gotcha" style="display:none" />
+
+  <input type="submit" class="btn btn-lg btn-primary btn-block" value="Send">
+ </form>
+ <script>
+    var contactform =  document.getElementById('contact-form');
+    contactform.setAttribute('action', 'https://formspree.io/' + 'omega' + '@' + 'skullhouse' + '.' + 'nyc');
+</script>
+
+ <!-- JS to display uploaded picture before submitting -->
+ <script>
+ function displayUploaded(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function (e) {
+      $('#displayPicture')
+        .attr('src', e.target.result)
+        .width(200)
+        .height(200);
+    };
+    reader.readAsDataURL(input.files[0]);
+  }
+ }
+ </script>
+</div>
