@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "2016 Philanthropy Wrap-up"
+title:  "Philanthropy: A Look Back, And Towards The Future"
 date:   2016-05-29 00:29:58
 categories: Spring 2016 Philanthropy
 ---
 
-<div class="text">
-<h1>2016 Philanthropy Wrap-up</h1>
+<div class="home">
 <p>
 In terms of philanthropy, this past school year has been an eventful and
 productive one for the Delta Phi Chapter of the Phi Kappa Sigma fraternity.
