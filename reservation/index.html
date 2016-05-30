@@ -1,0 +1,31 @@
+---
+layout: form-default
+---
+
+<div class="home">
+  <h1>ROOM RESERVATION FORM</h1>
+
+  <p>
+    This form is for NYU Phi Kappa Sigma students to input their login details
+    in order for the organisation's <a href="https://github.com/JasonYao/Bobst-Room-Automator">Bobst study room automator</a>
+    to function. Your information is sent over secure channels, and will not
+    be used in any setting outside of reserving study rooms for the organisation.
+  </p>
+  <hr>
+  <!-- User Login Request Form -->
+  <form id="reservation-form" method="POST">
+    <input type="text" class="form-control" name="netID" placeholder="NetID (e.g. jy1299)">
+    <input type="password" class="form-control" name="password" placeholder="Password (e.g. Nice try)">
+    <input type="submit" class="btn btn-lg btn-primary btn-block" value="Send">
+
+    <!-- Meta settings -->
+    <input type="hidden" name="_next" value="https://www.skullhouse.nyc/" />
+    <input type="hidden" name="_subject" value="Reservation Login Information" />
+    <input type="text" name="_gotcha" style="display:none" />
+  </form>
+
+ <script>
+    var contactform =  document.getElementById('reservation-form');
+    contactform.setAttribute('action', 'https://formspree.io/' + 'omega' + '@' + 'skullhouse' + '.' + 'nyc');
+</script>
+</div>
