@@ -3,27 +3,20 @@ layout: form-default
 ---
 
 <div class="home">
-  <h1>Identification Card</h1>
-  <p>The following information is for an official PKS ID Card.</p>
+  <h1>Phi Kappa Sigma 2016 Census</h1>
+  <p>
+    The following information will gather meta information about members of
+    the fraternity, in order to provide some cool metrics and statistics about
+    the members of the Phi Kappa Sigma Delta Phi Chapter at New York University.
+  </p>
 
   <p>
-    Note: Your ID card will take at least 1 week to arrive after the group's
-    information is sent (due to cheaper prices when sending in bulk). For updates
-    on the cards arrival date, please contact your <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:bzrtn+VQPneqf@fxhyyubhfr.alp?fhowrpg=Vqragvsvpngvba Pneqf\" gnetrg=\"_oynax\">bzrtn</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
-<noscript><span style="unicode-bidi:bidi-override;direction:rtl;">cyn.esuohlluks@sdraCDI+agemo</span></noscript></span>.
+    If you require help with this form, please contact your <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:bzrtn+VQPneqf@fxhyyubhfr.alp?fhowrpg=Vqragvsvpngvba Pneqf\" gnetrg=\"_oynax\">bzrtn</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
+    <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">cyn.esuohlluks@sdraCDI+agemo</span></noscript></span>.
   </p>
   <hr>
 
-  <h3>Pricing</h3>
-  <p>
-    The price for the ID cards will be around <span>$100</span> for a
-    primary card and a duplicate. Please pay to the Tau via venmo with the
-    subject line:<br>
-    <span>PKS ID Card</span>.
-  </p>
-  <hr>
-
-  <h3>Picture</h3>
+  <h3>Profile Picture</h3>
   <p>
     The picture uploaded should be a governmental picture taken from the front
     on either a pure white or pure light blue background. Lighting must be in
@@ -31,8 +24,8 @@ layout: form-default
   </p>
 
 
-  <!-- Start of the ID contact form -->
-  <form id="contact-form" method="POST">
+  <!-- Start of the census contact form -->
+  <form id="census-form" method="POST">
   <hr>
   <h3>PKS Member Information</h3>
   <input type="text" class="form-control" name="first_name" placeholder="First Name">
@@ -41,10 +34,10 @@ layout: form-default
 
   <input type="text" class="form-control" name="height" placeholder="Height in feet/inches (e.g. 5&quot;10)">
   <input type="text" class="form-control" name="weight" placeholder="Weight in pounds (e.g. 150)">
-  <input type="textarea" class="form-control" name="address" placeholder="Address (e.g. 809 Lincoln Blvd, Champaign 61820, IL).">
+  <input type="text" class = "form-control" name="favourite_sport" placeholder="Favourite Sport (e.g. basketball, soccer)">
 
   <select name="eye colour" class="drop">
-    <option value="">Eye Colour</option>
+    <option value="">Car Colour</option>
     <option value="BLK">Black</option>
     <option value="GRN">Green</option>
     <option value="BLU">Blue</option>
@@ -59,18 +52,18 @@ layout: form-default
   <h5>Date of Birth</h5>
   <input type="date" class="form-control" name="date_of_birth">
 
-  <h5>ID Picture</h5>
+  <h5>Profile Picture</h5>
   <input type="file" name="picture" accept="image/*" onchange="displayUploaded(this);">
   <img id="displayPicture" src="#" alt="" />
 
   <input type="hidden" name="_next" value="https://www.skullhouse.nyc/" />
-  <input type="hidden" name="_subject" value="PKS ID Card" />
+  <input type="hidden" name="_subject" value="PKS Census Information" />
   <input type="text" name="_gotcha" style="display:none" />
 
   <input type="submit" class="btn btn-lg btn-primary btn-block" value="Send">
  </form>
  <script>
-    var contactform =  document.getElementById('contact-form');
+    var contactform =  document.getElementById('census-form');
     contactform.setAttribute('action', 'https://formspree.io/' + 'omega' + '@' + 'skullhouse' + '.' + 'nyc');
 </script>
 
