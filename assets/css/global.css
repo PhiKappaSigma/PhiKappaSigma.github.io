@@ -74,6 +74,13 @@
 		padding-left: 0px;
 	}
 
+	/* Hacks to make active work */
+	#nav .active > a {
+		color: #8D734A;
+		background-color: transparent;
+		background-image: inherit;
+	}
+
 	/* Dropdown background changes */
 	.navbar-nav > li > .dropdown-menu {
 		background-color: rgba(100,100,100,0.4);

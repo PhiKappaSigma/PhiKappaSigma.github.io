@@ -25,37 +25,37 @@
           <div class="collapse navbar-collapse" id="navbar">
             <!-- Left-side of navbar -->
             <ul class="nav navbar-nav navbar-left">
-              <li class="{{ "/vision/" | prepend: site.baseurl }}"><a href="/vision/">Vision</a></li>
-
     					<!-- About us information -->
     					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us<span class="caret"></span></a>
     						<ul class="dropdown-menu">
-    							<li class="{{ "/about/" | prepend: site.baseurl }}"><a href="/about/">Who We Are</a></li>
-    							<li class="{{ "/about/core-values/" | prepend: site.baseurl }}"><a href="/about/core-values/">Core Values</a></li>
-    							<li class="{{ "/about/public-mottos/" | prepend: site.baseurl }}"><a href="/about/public-mottos/">Public Mottos</a></li>
+    							<li class="{% if page.url == "/about/" %}active{% endif %}"><a href="{{ "/about/" | prepend: site.baseurl }}">Who We Are</a></li>
+								<li class="{% if page.url == "/about/vision/" %}active{% endif %}"><a href="{{ "/about/vision/" | prepend: site.baseurl }}">Vision</a></li>
+    							<li class="{% if page.url == "/about/core-values/" %}active{% endif %}"><a href="{{ "/about/core-values/" | prepend: site.baseurl }}">Core Values</a></li>
+    							<li class="{% if page.url == "/about/public-mottos/" %}active{% endif %}"><a href="{{ "/about/public-mottos/" | prepend: site.baseurl }}">Public Mottos</a></li>
     						</ul>
     					</li>
     					<!-- End of about us information -->
-              <li class="{{ "/events/" | prepend: site.baseurl }}"><a href="/events/">Events</a></li>
-              <li class="{{ "/philanthropy/" | prepend: site.baseurl }}"><a href="/philanthropy/">Philanthropy</a></li>
+              <li class="{% if page.url == "/events/" %}active{% endif %}"><a href="{{ "/events/" | prepend: site.baseurl }}">Events</a></li>
+              <li class="{% if page.url == "/philanthropy/" %}active{% endif %}"><a href="{{ "/philanthropy/" | prepend: site.baseurl }}">Philanthropy</a></li>
+				<li ></li>
             </ul>
 
             <!-- Right-side of navbar -->
             <ul class="nav navbar-nav navbar-right">
-              <li class="{{ "/schedule/" | prepend: site.baseurl }}"><a href="/schedule/">Schedule</a></li>
+              <li class="{% if page.url == "/schedule/" %}active{% endif %}"><a href="{{ "/schedule/" | prepend: site.baseurl }}">Schedule</a></li>
     					<!-- Membership information -->
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Membership<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-    						  <li class="{{ "/membership/recruitment/" | prepend: site.baseurl }}"><a href="/membership/recruitment/">Recruitment</a></li>
-    							<li class="{{ "/membership/faqs/" | prepend: site.baseurl }}"><a href="/membership/faqs/">FAQs</a></li>
-    	            <li class="{{ "/membership/expectations/" | prepend: site.baseurl }}"><a href="/membership/expectations/">Expectations</a></li>
+    						  <li class="{% if page.url == "/membership/recruitment/" %}active{% endif %}"><a href="{{ "/membership/recruitment/" | prepend: site.baseurl }}">Recruitment</a></li>
+    							<li class="{% if page.url == "/membership/faqs/" %}active{% endif %}"><a href="{{ "/membership/faqs/" | prepend: site.baseurl }}">FAQs</a></li>
+    	            <li class="{% if page.url == "/membership/expectations/" %}active{% endif %}"><a href="{{ "/membership/expectations/" | prepend: site.baseurl }}">Expectations</a></li>
     						</ul>
               </li>
 
               <!-- End of membership information -->
-              <li class="{{ "/brothers/" | prepend: site.baseurl }}"><a href="/brothers/">Brothers</a></li>
-              <li class="{{ "/contact/" | prepend: site.baseurl }}"><a href="/contact/">Contact Us</a></li>
+              <li class="{% if page.url == "/brothers/" %}active{% endif %}"><a href="{{ "/brothers/" | prepend: site.baseurl }}">Brothers</a></li>
+              <li class="{% if page.url == "/contact/" %}active{% endif %}"><a href="{{ "/contact/" | prepend: site.baseurl }}">Contact Us</a></li>
             </ul>
           </div>
           <!-- /.navbar-collapse -->
