@@ -16,7 +16,7 @@ categories: Summer 2016 Reddit AMA
 
 <p>
 These questions, and much more, will be answered by the brothers of Phi Kappa
-Sigma this Monday, 4th of July, 2016 (EDT) over at <a href="https://www.reddit.com/r/nyu">/r/nyu</a>.
+Sigma this <span>today</span> (Sunday, 3rd July, 2016 EDT) over at <a href="https://www.reddit.com/r/nyu">/r/nyu</a>.
 </p>
 
 <p>
