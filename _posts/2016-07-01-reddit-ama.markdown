@@ -7,6 +7,11 @@ categories: Summer 2016 Reddit AMA
 
 <div class="letter">
 
+<h1>And We're Live!</h1>
+
+<p>Head on over to the AMA in progress <a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/">here</a></p>!
+<hr>
+
 <p>Who should I talk to if I have questions with transfer credits?</p>
 <p>Which good professor's classes should I take?</p>
 <p>How would I even start planning the next 4(?) years of my life?</p>
