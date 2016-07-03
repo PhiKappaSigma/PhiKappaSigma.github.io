@@ -9,7 +9,7 @@ categories: Spring 2016 Philanthropy
 <p>
 In terms of philanthropy, this past school year has been an eventful and
 productive one for the Delta Phi Chapter of the Phi Kappa Sigma fraternity.
-In the fall of 2015, we started the year of strongly with our Lambda Class
+In the fall of 2015, we started the year off strongly with our Lambda Class
 initiates participating in an Airbnb sponsored park cleanup in Long Island.
 </p>
 

@@ -6,8 +6,6 @@ categories: Spring 2016
 ---
 
 <div class="letter">
-<hr>
-
 <p>Dear Prospective Skull,</p>
 
 <p>
