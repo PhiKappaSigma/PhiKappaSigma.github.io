@@ -9,7 +9,20 @@ categories: Summer 2016 Reddit AMA
 
 <h1>And We're Live!</h1>
 
-<p>Head on over to the AMA in progress <a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/">here</a></p>!
+<p>Head on over to the AMA in progress <a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/">here</a>!</p>
+
+<h3>Quick Links</h3>
+<ul style="text-align: left">
+  <li><a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/d4xrnnt">Dining Halls</a></li>
+  <li><a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/d4xrnt0">Housing (Dorms)</a></li>
+  <li><a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/d4xvt20">Housing (Apartments)</a></li>
+  <li><a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/d4xshua">Cool or Interesting Clubs</a></li>
+  <li><a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/d4xroly">Study Spots</a></li>
+  <li><a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/d4xwany">Working Part Time as a Student</a></li>
+  <li><a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/d4xyg1k">Professors</a></li>
+  <li><a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/d4xyhm3">Highly Recommended Classes</a></li>
+</ul>
+
 <hr>
 
 <p>Who should I talk to if I have questions with transfer credits?</p>
