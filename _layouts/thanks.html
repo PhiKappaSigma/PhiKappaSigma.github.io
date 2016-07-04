@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+  {% include head.html %}
 
-  <head>
-  {% include head-home.html %}
+  <meta http-equiv="refresh" content="10;url=https://www.skullhouse.nyc" />
 </head>
+
   <body>
-    <!-- Fade in page loader-->
-    <div id="mask">
-	     <div id="loader"></div>
-    </div>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-	      $(window).load(function() {
-          $("#mask").delay(300).fadeOut(1500);
-        });
-      });
-    </script>
-
     <!-- Page specific text -->
     <div class="container-fluid textContainer">
       {% include header.html %}
