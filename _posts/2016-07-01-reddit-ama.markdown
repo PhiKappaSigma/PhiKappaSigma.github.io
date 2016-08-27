@@ -7,6 +7,18 @@ categories: Summer 2016 Reddit AMA
 
 <div class="letter">
 
+<h1>That's a Wrap, Folks!</h1>
+<hr>
+<p>
+  Thanks for all of the questions, we had a blast answering as many as we could!
+</p>
+
+<p>
+  For those questions that we didn't manage to get to in time, don't worry, as
+  we'll be posting another AMA on 27th September, 2016 that'll answer any
+  remaining questions unanswered.
+</p>
+
 <h1>And We're Live!</h1>
 
 <p>Head on over to the AMA in progress <a href="https://www.reddit.com/r/nyu/comments/4r2ju3/ama_for_incoming_freshmen_transfers_and_anybody/">here</a>!</p>
@@ -34,7 +46,7 @@ categories: Summer 2016 Reddit AMA
 
 <p>
 These questions, and much more, will be answered by the brothers of Phi Kappa
-Sigma this <span>today</span> (Sunday, 3rd July, 2016 EDT) over at <a href="https://www.reddit.com/r/nyu">/r/nyu</a>.
+Sigma <span>today</span> (Sunday, 3rd July, 2016 EDT) over at <a href="https://www.reddit.com/r/nyu">/r/nyu</a>.
 </p>
 
 <p>
